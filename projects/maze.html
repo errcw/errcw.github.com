@@ -1,0 +1,17 @@
+---
+layout: default
+title: Maze
+---
+<h1>Maze</h1>
+<p><a href='http://www.astrolog.org/labyrnth/algrithm.htm'>Eller's algorithm</a>
+for generating random mazes is great. It is particularly clever in that the
+algorithm generates mazes row by row without storing the entire maze in memory.
+If your browser supports it you should see a maze and its solution below.  I
+generate solutions for the mazes using Dijkstra's algorithm. I implemented both
+algorithms in Javascript. Reloading the page will generate a new maze.</p>
+
+<div class='game'>
+  <iframe src='http://ericw.ca/hg/maze/raw-file/41294bc988fa/maze.html' height='215px' scrolling='no'></iframe>
+</div>
+
+<p>The code is available in <a href='http://ericw.ca/hg/maze'>Mercurial</a> under an MIT license.</p>

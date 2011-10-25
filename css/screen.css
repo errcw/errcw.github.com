@@ -1,0 +1,151 @@
+/* ericw.ca (Eric Woroshow) */
+
+body {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  border-top: 5px solid #414141;
+}
+
+/* Typography */
+h1 {
+  font-size: 1.5em;
+  margin: 1.5em 0 0.5em 0;
+}
+
+h2 {
+  color: #414141;
+  font-size: 1.1em;
+  font-style: italic;
+  margin: 1.5em 0 0.5em 0;
+}
+
+h1 + h2 {
+  margin-top: 1em;
+}
+
+p {
+  text-indent: 0;
+  line-height: 1.75;
+}
+
+pre {
+  line-height: 1.2;
+  margin: 1em 0 1em 2em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #b74a4a;
+}
+
+a:hover {
+  color: #771818;
+  border-bottom: 1px solid #771818;
+  background-color: #f7d6d6;
+}
+
+/* Header */
+div#header {
+  border-top: 5px solid #b74a4a;
+}
+
+div#header h1 {
+  margin: 0;
+}
+
+div#header h1 a {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #414141;
+  padding: 20px 20px 10px 20px;
+  margin-left: 20px;
+}
+
+div#header h1 a:hover {
+  border-bottom: none;
+}
+
+div#header h1 a span.highlight {
+  color: #b74a4a;
+}
+
+/* Footer */
+p#footer {
+  font-size: 0.85em;
+  color: #414141;
+  padding: 2em 0 2em 0;
+}
+
+/* Container */
+div#container {
+  max-width: 700px;
+  margin: -2.5em 0 0 180px;
+}
+
+/* Home & Projects */
+img#headshot {
+  float: right;
+  margin-left: 2em;
+}
+
+ul.simple {
+  list-style: none;
+  margin: -0.25em 0 0 0;
+}
+
+ul.simple li {
+  margin: 0 0 0.25em 0;
+  line-height: 1.5;
+}
+
+h3 + p {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.game {
+  margin: 1em 0 1em 0;
+}
+
+/* Notes */
+.post {
+  margin-bottom: 3em;
+}
+
+.post span.date {
+  color: #777777;
+}
+
+.post h4 {
+  font-style: italic;
+  margin: 1em 0 0.5em 0;
+}
+
+.post p {
+  line-height: 1.5;
+}
+
+.post p + p {
+  margin-top: 1em;
+}
+
+.post ul {
+  margin-left: 2em;
+  margin-top: 0.75em;
+}
+
+.post li {
+  list-style: disc;
+  margin-bottom: 0.75em;
+  line-height: 1.25;
+}
+
+.post pre, .post code {
+  font-family: monospace;
+}
