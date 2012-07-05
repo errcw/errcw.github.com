@@ -14,14 +14,6 @@ I <a href='http://www.planetgranite.com/'>climb</a>.
 You might be interested in my <a href='/files/EricWoroshowResume.pdf'>r&eacute;sum&eacute;</a>.
 </p>
 
-<h1>Notes</h1>
-<ul class='simple'>
-  {% for post in site.posts limit:3 %}
-    <li><a href='{{post.url}}'>{{post.title}}</a></li>
-  {% endfor %}
-  <li>Read <a href='/allnotes.html'>the rest</a>.</li>
-</ul>
-
 <h1>Projects</h1>
 <h3><a href='http://es-builder.appspot.com/'>Builder</a></h3>
 <p>A web game about building things with toy blocks.</p>
@@ -60,6 +52,14 @@ You might be interested in my <a href='/files/EricWoroshowResume.pdf'>r&eacute;s
 <p>The long tail of long-forgotten bits.</p>
 
 <h3><a href='http://hg.ericw.ca'>Bitbucket</a> &amp; <a href='http://github.com/errcw'>GitHub</a></h3>
+
+<h1>Notes</h1>
+<ul class='simple'>
+  {% for post in site.posts limit:3 %}
+    <li><a href='{{post.url}}'>{{post.title}}</a></li>
+  {% endfor %}
+  <li>Read <a href='/allnotes.html'>the rest</a>.</li>
+</ul>
 
 <h1>Contact</h1>
 <ul class='simple'>
