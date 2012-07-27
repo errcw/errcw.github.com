@@ -188,5 +188,4 @@ I pulled this information from a variety of sources, chief among them:
 * [GCC Extended Asm manual](http://gcc.gnu.org/onlinedocs/gcc-4.3.0/gcc/Extended-Asm.html#Extended-Asm)
 * [GNU as manual](http://sourceware.org/binutils/docs-2.18/as/index.html)
 * [GCC-Inline-Assemby-HOWTO](http://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html)
-* [AT&T Assembly Syntax](http://sig9.com/articles/att-syntax)
 
