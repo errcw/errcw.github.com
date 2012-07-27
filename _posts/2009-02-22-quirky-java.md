@@ -4,9 +4,8 @@ title: Quirky Java
 ---
 This term I'm taking a course on compiler construction, [CS
 444](http://www.student.cs.uwaterloo.ca/~cs444/). For the course I, along with
-my group members [Peter](http://www.eng.uwaterloo.ca/~pfeiner/) and
-[Ian](http://www.student.cs.uwaterloo.ca/~i3stewar/), am developing a compiler
-for a subset of Java. So far we have finished the
+my group members [Peter](http://www.cs.utoronto.ca/~peter/) and
+Ian, am developing a compiler for a subset of Java. So far we have finished the
 [scanner](http://en.wikipedia.org/wiki/Lexical_analyzer) and
 [parser](http://en.wikipedia.org/wiki/LALR). It's been an illuminating
 experience learning about the quirkiness hidden deep in the [Java Language
