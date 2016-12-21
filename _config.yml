@@ -2,3 +2,5 @@ server: true
 auto: true
 pygments: true
 permalink: /notes/:title.html
+gems:
+  - jekyll-redirect-from
