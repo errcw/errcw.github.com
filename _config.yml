@@ -1,6 +1,6 @@
 server: true
 auto: true
 permalink: /notes/:title.html
-highligher: rouge
+highlighter: rouge
 gems:
   - jekyll-redirect-from
